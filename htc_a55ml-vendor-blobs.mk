@@ -8,6 +8,8 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc_a55ml/lib,s
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc_a55ml/lib64,system/lib64)
 
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc_a55ml/framework,system/framework)
+
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc_a55ml/bin,system/bin)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/htc/htc_a55ml/etc,system/etc)
